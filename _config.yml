@@ -19,7 +19,8 @@ linkedin_username: jatnael-montes
 about_profile_image: picture.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hello! My name is Jatnael Montes and I am currently a first year Computer Science & Engineering (CSE) student at UC Merced.
-  I enjoy programming in <mark>Java</mark> and currently have an interest in Computer Vision and Robotics.
+  I have worked with a range of different languages in different projects and I am always looking for opportunities to work with something new!
+  I enjoy programming in <mark>Java</mark> and currently have an interest in Computer Vision and Robotics. The things I have most experience with are: <mark>HTML 5 </mark>, <mark>BootStrap 4</mark>,<mark>Python</mark>,<mark>Android</mark>,<mark>Git</mark> and <mark>OpenCV</mark>
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
 
