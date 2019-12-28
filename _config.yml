@@ -27,7 +27,7 @@ about_content: | # this will include new lines to allow paragraphs
 # projects_title: Projects #(Use this to override about projects section title)
 
 # Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
+experience_title: Achievements #(Use this to override about experience section title)
 
 # Education Section
 # education_title: Education #(Use this to override about education section title)
@@ -36,7 +36,7 @@ about_content: | # this will include new lines to allow paragraphs
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   On my free time, I enjoy watching and playing basketball and football with my friends.
-  I also enjoy helping out my FTC and FRC teams back home by volunteering at competitions and giving advice.
+  I also enjoy helping out my FTC and FRC robotics teams back home by volunteering at competitions and giving advice.
   I also love hackathons!
 
 
