@@ -1,6 +1,6 @@
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: favicon.ico
 
 # Personal info
 name: Jatnael Montes
@@ -19,7 +19,7 @@ linkedin_username: jatnael-montes
 about_profile_image: picture.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hello! My name is Jatnael Montes and I am currently a first year Computer Science & Engineering (CSE) student at UC Merced.
-  I enjoy programming in **Java** and currently have an interest in Computer Vision and Robotics. 
+  I enjoy programming in <mark>Java</mark> and currently have an interest in Computer Vision and Robotics.
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
 
