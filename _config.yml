@@ -18,14 +18,8 @@ linkedin_username: jatnael-montes
 # about_title: About Me (Use this to override about section title)
 about_profile_image: picture.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
-
+  Hello! My name is Jatnael Montes and I am currently a first year Computer Science & Engineering (CSE) student at UC Merced.
+  I enjoy programming in *Java* and currently have an interest in Computer Vision and Robotics. 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
 
@@ -38,8 +32,9 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Jatnael Montes and I am currently a first year Computer Science & Engineering (CSE) student at UC Merced.
-  I enjoy programming in *Java* and currently have an interest in Computer Vision and Robotics. 
+  On my free time, I enjoy watching and playing basketball and football with my friends.
+  I also enjoy helping out my FTC and FRC teams back home by volunteering at competitions and giving advice.
+  I also love hackathons!
 
 
 # Footer
