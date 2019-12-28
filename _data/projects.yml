@@ -6,4 +6,4 @@
   quote: >
     Fitness made easy
   description: | # this will include new lines to allow paragraphs
-    This is a project that placed 3rd in UC Merced's 2019 Local Hack Day. The project was originally written in <mode>Flutter</mode> but due to the time limit, my partner and I decided to rewrite the code onto an web app. I primarly focused on the front-end of the page using <mode>HTML5</mode> and <mode>Bootstrap4</mode>
+    This is a project that placed 3rd in UC Merced's 2019 Local Hack Day. The project was originally written in <mark>Flutter</mark> but due to the time limit, my partner and I decided to rewrite the code onto an web app. I primarly focused on the front-end of the page using <mark>HTML5</mark> and <mark>Bootstrap4</mark>
