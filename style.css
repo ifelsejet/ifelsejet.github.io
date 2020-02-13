@@ -1,0 +1,131 @@
+body{
+  background: #fff;
+}
+h1{
+  font-family: cursive;
+  text-align: center;
+}
+
+#puppy{
+  position: absolute;
+  left: 40%;
+  top:60px;
+  right:80%
+  width: 400px;
+  height: 400px;
+}
+
+#left-eye,
+#right-eye {
+  z-index: 40;
+  width: 18%;
+  top:40px;
+  position: relative;
+  right: -100px;
+  height: 20%;
+  -webkit-transform: rotate(10deg);
+  -moz-border-radius: 100px /50px;
+  -webkit-border-radius: 100px /50px;
+  border-radius: 180px / 260px;
+  background: #2d1d0e;
+}
+#right-eye{
+  top:-20px;
+  position: relative;
+  left: 40px;
+}
+
+#right-ear,
+#left-ear {
+  z-index: -10;
+  position: relative;
+  top: -160px;
+  left: -80px;
+  width: 25%;
+  height: 40%;
+  -webkit-transform: rotate(38deg);
+  -moz-border-radius: 100px /50px;
+  -webkit-border-radius: 100px /50px;
+  border-radius: 180px / 260px;
+  background: #2d1d0e;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+
+}
+
+#right-ear{
+  -webkit-transform: rotate(-38deg);
+  top: -320px;
+  left: 140px;
+}
+#nose{
+  z-index: -10;
+  position: relative;
+  top: 110px;
+  left: 30px;
+  width: 30%;
+  height: 34%;
+  -webkit-transform: rotate(100deg);
+  -moz-border-radius: 100px /50px;
+  -webkit-border-radius: 100px /50px;
+  border-radius: 180px / 260px;
+  background: #000;
+  -webkit-animation: mymove 5s infinite;
+  animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymove{
+  from {
+    top: 110px;
+  }
+  to{
+    top: 100px;
+  }
+}
+
+.pupil,
+.nose-twinke{
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  top: 15px;
+  right: -15px;
+  border-radius: 100px;
+  z-index: 100;
+  position: relative;
+}
+.nose-twinkle{
+  width: 5px;
+  height: 10px;
+  -moz-border-radius: 100px /50px;
+  -webkit-border-radius: 100px /50px;
+  border-radius: 180px / 260px;
+}
+#face{
+  position: relative;
+  top: 50px;
+  width: 40px;
+  -webkit-transform: rotate(-20deg);
+  height: 60%
+  -moz-border-radius: 100px /50px;
+  -webkit-border-radius: 100px /50px;
+  border-radius: 180px / 260px;
+  background-image: linear-gradient(120deg,#f6d365 0%, #fda085 100%);
+  z-index: 15;
+}
+#upper-body{
+  position: relative;
+  top: -440px;
+  left: -30px;
+  width: 55%;
+  height: 55%
+  border-radius: 120px;
+  background-image: linear-gradient(120deg,#f6d365 0%, #fda085 100%);
+  z-index: 10;
+}
+
+#lower-body{
+  z-index: 5;
+  position: relative;
+  top: -480px;
+  left: -28%
+
+}
