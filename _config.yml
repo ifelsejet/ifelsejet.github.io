@@ -1,0 +1,68 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+favicon: favicon.ico
+
+# Personal info
+name: Jatnael Montes
+title: First Year Computer Science Student @ UC Merced
+email: ifelsejet@gmail.com
+phone: (951)956-7927
+
+
+# Social links
+github_username:  ifelsejet
+linkedin_username: jatnael-montes
+
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: picture.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hello! My name is Jatnael Montes and I am currently a first year Computer Science & Engineering (CSE) student at UC Merced.
+
+
+  I have worked with a range of different languages in different projects and I am always looking for opportunities to work with something new!
+  I enjoy programming in <mark>Java</mark> and currently have an interest in Computer Vision and Robotics. The things I have most experience with are:<mark>HTML5</mark>,<mark>BootStrap4</mark>,<mark>Python</mark>,<mark>Android</mark>,<mark>Git</mark> and <mark>OpenCV</mark>
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+experience_title: Achievements #(Use this to override about experience section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+  On my free time, I enjoy watching and playing basketball and football with my friends.
+  I also enjoy helping out my FTC and FRC robotics teams back home by volunteering at competitions and giving advice.
+  I also love hackathons!
+
+
+# Footer
+footer_show_references: true
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
